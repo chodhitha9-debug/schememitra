@@ -1,73 +1,43 @@
-# Schema Mitra
+# SchemeMitra – Government Scheme App
 
-## Project info
+> "Find the government support you're eligible for."
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+SchemeMitra is a multilingual web application that helps vulnerable and eligible citizens across India discover government schemes they qualify for — without needing any prior knowledge or login.
 
-## How can I edit this code?
+## Problem Statement
 
-There are several ways of editing your application.
+Millions of Indians are unaware of government schemes they are eligible for. The application process is often confusing, especially for rural, low-income, and less-educated citizens. SchemeMitra solves this by asking simple questions and instantly showing relevant schemes.
 
-**Use Lovable**
+## Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- **Multilingual Support** — English, Hindi, Telugu, Tamil, Malayalam
+- **Smart Eligibility Matching** — based on age, income, occupation, caste, state, and location type
+- **Scheme Recommendations** across 4 categories:
+- Students (NSP, Skill India, PM e-Vidya, Digital India)
+- Farmers (PM Kisan, Soil Health Card, Fasal Bima, KCC)
+- Workers (Atal Pension, RSBY, MNREGA, e-SHRAM)
+- Unemployed (PMKVY, Startup India, NCS, Stand-Up India)
+- **Direct Apply Links** with step-by-step application guidance
+- **No Login Required** — accessible to everyone including rural users
+- **Responsive UI** — works on mobile and desktop
 
-Changes made via Lovable will be committed automatically to this repo.
+## Technologies Used
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
+- React + TypeScript
 - Tailwind CSS
+- Vite
+- shadcn-ui
+- Lovable AI (AI-assisted development)
 
-## How can I deploy this project?
+## How It Works
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+1. User enters basic details (name, age group, occupation, caste, income, state, location)
+2. Clicks "Find My Schemes"
+3. App displays all eligible government schemes
+4. User selects a scheme to view official website link + steps to apply
 
-## Can I connect a custom domain to my Lovable project?
+## Developer
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+**Mamidala Chodhitha** — B.Tech in Artificial Intelligence and Machine Learning  
+Vignan's Foundation for Science, Technology & Research, Hyderabad  
+GitHub: [chodhitha9-debug](https://github.com/chodhitha9-debug)
